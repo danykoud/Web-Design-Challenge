@@ -1,0 +1,143 @@
+*{box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+text-decoration: none;
+
+}
+
+.box{
+    margin-top: 70px;
+    display: inline-block;
+
+}
+.navbar{padding: 0px;margin: 0px;}
+body {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background: lightgrey;
+  
+}
+
+container{
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background-color: white;
+    padding-left: 15px;
+}
+
+header h7 a:hover,
+header h7 a .active{
+   color: #23dbdb;
+  }
+
+  header h7 a {
+  display: block ;
+   background: teal;
+   text-decoration-color:  solid #23dbdb;
+   color: white;
+   text-align: center;
+    padding: 20px;
+    list-style: none;
+    text-decoration: none;
+}
+
+     
+
+
+ul{color: #666;}
+
+
+div.two{background-color: white;
+    width: 42%;
+    float: left;
+    margin-left: 15%;
+}
+
+
+.two p {padding: 15px;}
+
+
+div.box.three{
+    width: 25%;
+    background: white;
+    float: right;
+  margin-right:17% ;
+}
+
+
+.three img { 
+    height: 160px;
+    width: 160px;
+    align-items:center;
+   margin-left:  28px;
+    
+
+}
+
+.box.two img {height: 200px;
+    width: 200px;
+    padding-right: 10px;
+    margin-left: 15px;
+           float: left;
+}
+.box.two p{
+    font-size: 17px;
+}
+.box.two h4{ color: teal; padding-left: 15px; padding-top: 20px; font-size: 35px;}
+.box.three h4{ color: teal; padding-left: 15px; padding-top: 20px; font-size: 35px;}
+
+#nav-select{
+   visibility: hidden;
+}
+@media  (max-width : 1611px){
+    .box.two img {height: 100px;
+        width: 100px;
+      
+}
+
+}
+@media  (max-width : 838px){
+
+.box.two p{
+    font-size: 8px;
+}
+
+.box.two img {height: 30px;
+    width: 30px;
+}
+.box.two h4{ font-size: 15px;}
+.box.three h4{ font-size: 15px;}
+}
+
+@media  (max-width : 756px){
+  #nav-select  { visibility: visible;}
+  .navbar ul{ visibility: hidden;}
+ 
+  .box.two img {height: 20px;
+    width: 20px;
+}
+.box.two h4{ font-size: 15px;}
+.box.three h4{ font-size: 15px;}
+}
+
+@media  (max-width : 620px){
+    header h7 a {visibility: visible; font-size: 10px; }
+    div.box.three{
+       visibility: hidden;
+}
+    div.box.two{
+        visibility: hidden;
+}
+body{background-color:gray;}
+.header  {background-color: black; opacity: 50%;}
+.box.two img {height: 10px;
+    width: 10px;
+}
+
+}
+
+
+
+
+               

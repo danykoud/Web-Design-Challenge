@@ -1,0 +1,14 @@
+.plot{
+    background-color: whitesmoke;
+    margin: 50px auto;
+    width: 90%;
+    position: relative;
+    align-items: center;
+}
+
+.plot img{
+    position: absolute;
+    margin-left: 17%;
+    width: 70;
+   
+}

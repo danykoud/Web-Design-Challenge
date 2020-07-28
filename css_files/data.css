@@ -1,0 +1,56 @@
+
+section {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+}
+.text {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    width: 80%;
+   
+}
+ h3{
+    color: teal;
+    padding-top: 50px;
+    height: 110px;
+   
+    padding-left: 50px;
+}
+
+.table{
+    width: 92%;;
+    margin-left: 50px;
+}
+
+#nav-select{
+    visibility: hidden;}
+
+@media  (max-width : 952px){
+
+    .table{
+        width: 52%;;
+   
+    }
+    h3{
+        font-size: 20px;
+    }
+    .text {
+        font-size: 10px;
+       
+    }
+    
+}
+ 
+ @media  (max-width : 620px){
+    
+    section {
+       visibility: hidden;
+    }     
+
+    
+#nav-select{
+    visibility: visible;}
+
+ }
